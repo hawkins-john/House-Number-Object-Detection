@@ -54,14 +54,14 @@ Follow the steps below to use pre-trained network weights to process new video:
 
 The following figures show the pipeline performance on a number of images that illustrate the pipeline is scale invariant, pose invariant, location invariant, lighting invariant, font invariant and noise invariant. The images also show some cases where the digit detector was fooled and returned false positives.
 
-![1](1.png)
+![1](processed_images/1.png)
 
-![2](2.png)
+![2](processed_images/2.png)
 
-![3](3.png)
+![3](processed_images/3.png)
 
-![4](4.png)
+![4](processed_images/4.png)
 
-![5](5.png)
+![5](processed_images/5.png)
 
-![6](6.png)
+![6](processed_images/6.png)
