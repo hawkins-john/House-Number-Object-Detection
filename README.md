@@ -12,7 +12,7 @@ A naive approach for region proposal is to slide a fixed window over a Gaussian 
 
 Finally, an algorithm called non-maximum suppression (NMS) is used to eliminate duplicate overlapping positive digit classifications. NMS uses a threshold on the intersection of union between all bounding boxes and when that threshold is breached only the bounding box with the highest classification confidence is kept.
 
-State of the art end-to-end object detection architectures that prioritize speed like the RetinaNet network and YOLO network differ form the approach here in that they use a "single-shot" detection approach that combines region proposal and classification into one neural network pass. Other state of the methods that prioritize accuracy over speed typically use a "two-shot" approach with one neural network for region proposals and another for classification.
+State of the art end-to-end object detection architectures that prioritize speed like the RetinaNet network and YOLO network differ from the approach used here in that they use a "single-shot" detection approach that combines region proposal and classification into one neural network pass. Other state of the methods that prioritize accuracy over speed typically use a "two-shot" approach with one neural network for region proposals and another for classification.
 
 ### Prerequisites
 
